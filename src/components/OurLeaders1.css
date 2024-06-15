@@ -1,0 +1,76 @@
+/* src/components/OurLeaders.css */
+.our-leaders {
+    padding: 40px;
+    text-align: center;
+    background-color: #121212;
+    color: white;
+    position: relative;
+  }
+  
+  .our-leaders h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .tabs button {
+    background: none;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .tabs button.active {
+    border-bottom: 2px solid #ffcd00;
+  }
+  
+  .leaders-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    margin: 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .team-member-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #ffcd00;
+  }
+  
+  .team-member h3 {
+    margin: 10px 0 5px 0;
+    font-size: 1.2rem;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  .team-member::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ffcd00;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  
