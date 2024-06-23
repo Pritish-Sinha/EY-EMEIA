@@ -1,4 +1,6 @@
 import React, { FC } from 'react';
+import r1Image from '../assets/r1.png';
+import r2Image from '../assets/r2.png';
 
 interface Section {
   header: string;
@@ -12,7 +14,7 @@ interface Section {
 const sections: Section[] = [
   {
     header: "EMEIA FSO",
-    imageUrl: '../src/assets/r1.png',
+    imageUrl: r1Image,
     paragraph_1: "Innovation",
     paragraph_2: "Designed to help apply innovation to our offerings, supporting EY to future-proof, stay relevant and be competitive.",
     buttonText: "Click Here to Explore",
@@ -20,7 +22,7 @@ const sections: Section[] = [
   },
   {
     header: "Europe West",
-    imageUrl: '../src/assets/r2.png',
+    imageUrl: r2Image,
     paragraph_1: "Innovation Team",
     paragraph_2: "Multidisciplinary and multicultural team which breathes innovation and works across all geographies, Service Lines and sectors to develop new technologies, strategies and solutions that can better position EY and our clients for the future.",
     buttonText: "Click here to Explore",

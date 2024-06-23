@@ -1,4 +1,5 @@
 import * as React from 'react';
+import ProcessImage from '../assets/Process.png';
 
 const Funding: React.FC = () => {
   return (
@@ -14,7 +15,7 @@ const Funding: React.FC = () => {
         <div className="process-image-container">
           <img
             className="process-image"
-            src='../src/assets/Process.png'
+            src={ProcessImage}
             alt="Process"
           />
           <div className="process-overlay-text">

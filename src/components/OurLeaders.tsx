@@ -1,6 +1,17 @@
 import * as React from 'react';
 import { useState } from 'react';
 
+import MeribethImage from '../assets/Meribeth.png';
+import ElizabethImage from '../assets/Elizabeth.png';
+import LauraAtkinsonImage from '../assets/LauraAtkinson.png';
+import MateuszPociaskImage from '../assets/MateuszPociask.png';
+import GuruImage from '../assets/Guru.png';
+import LorenzoCongiuImage from '../assets/LorenzoCongiu.png';
+import MikhaliImage from '../assets/Mikhali.png';
+import DetmarOrdemannImage from '../assets/DetmarOrdemann.png';
+import PaulImage from '../assets/Paul.png';
+import BerndKrajnikImage from '../assets/BerndKrajnik.png';
+
 interface Leader {
     name: string;
     role: string;
@@ -8,34 +19,34 @@ interface Leader {
 }
 
 const regionalLeaders: Leader[] = [
-    { name: 'Meribeth Banaschik', role: 'EUROPE WEST', imageUrl: '../src/assets/Meribeth.png' },
-    { name: 'Elizabeth Whitfield', role: 'EMEIA FSO', imageUrl: '../src/assets/Elizabeth.png' },
-    { name: 'Laura Atkinson', role: 'UK&I', imageUrl: '../src/assets/LauraAtkinson.png' },
-    { name: 'Mateusz Pociask', role: 'CESA', imageUrl: '../src/assets/MateuszPociask.png' },
-    { name: 'Guru Malladi', role: 'INDIA', imageUrl: '../src/assets/Guru.png' },
-    { name: 'Lorenzo Congiu', role: 'NORDICS', imageUrl: '../src/assets/LorenzoCongiu.png' }
+    { name: 'Meribeth Banaschik', role: 'EUROPE WEST', imageUrl: MeribethImage },
+    { name: 'Elizabeth Whitfield', role: 'EMEIA FSO', imageUrl: ElizabethImage },
+    { name: 'Laura Atkinson', role: 'UK&I', imageUrl: LauraAtkinsonImage },
+    { name: 'Mateusz Pociask', role: 'CESA', imageUrl: MateuszPociaskImage },
+    { name: 'Guru Malladi', role: 'INDIA', imageUrl: GuruImage },
+    { name: 'Lorenzo Congiu', role: 'NORDICS', imageUrl: LorenzoCongiuImage }
 ];
 
 const serviceLineLeaders: Leader[] = [
     {
         name: 'Mikhail Romanov',
         role: 'Consulting',
-        imageUrl: '../src/assets/Mikhali.png'
+        imageUrl: MikhaliImage
     },
     {
         name: 'Detmar Ordemann',
         role: 'Assurance',
-        imageUrl: '../src/assets/DetmarOrdemann.png'
+        imageUrl: DetmarOrdemannImage
     },
     {
         name: 'Paul E Warn',
         role: 'Tax',
-        imageUrl: '../src/assets/Paul.png'
+        imageUrl: PaulImage
     },
     {
         name: 'Bernd Krajnik',
         role: 'SaT Strategic Initiative',
-        imageUrl: '../src/assets/BerndKrajnik.png'
+        imageUrl: BerndKrajnikImage
     }
 ];
 

@@ -1,4 +1,6 @@
 import React, { useState, useEffect, useRef, FC } from 'react';
+import PlayButtonImage from '../assets/play.png';
+import ScrollToTopImage from '../assets/Vector.png';
 
 interface Video {
   src: string;
@@ -56,7 +58,7 @@ const VideoContainer: FC<VideoContainerProps> = ({ video, isBlurred, handlePlayB
             className="video-thumbnail"
           />
           <img
-            src="https://i.ibb.co/rF0SQwn/Carousel-arrow.png"
+            src={PlayButtonImage}
             alt="Play Button"
             className="play-button"
             onClick={handlePlayButtonClick}
@@ -135,7 +137,7 @@ const Gallery: FC = () => {
       </div>
       {isButtonVisible && (
         <button className="scroll-to-top" onClick={scrollToTop}>
-          <img src="https://i.ibb.co/PxQMd6c/up.png" alt="Up Button" />
+          <img src={ScrollToTopImage} alt="Up Button" />
         </button>
       )}
     </div>
