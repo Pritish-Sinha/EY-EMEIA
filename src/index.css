@@ -169,7 +169,7 @@ line-height: 20px;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-    font-size: 28px;
+    font-size: 2em;
     color:white;
     font-family: EYInterstate; 
 
@@ -182,7 +182,7 @@ line-height: 20px;
 }
   .leader-header h1 {
     margin: 0;
-    font-size: 48px;
+    font-size: 2em;
     color: white;
   }
   
@@ -277,15 +277,15 @@ line-height: 20px;
     background-color: #2E2E38;
     color: white;
     padding: 20px;
-  }
-  
-  .regions-header-container {
+    margin-bottom: -30px;
+  }  
+  .header-container {
     display: flex;
     align-items: center;
     position: relative;
   }
   
-  .regions-header-container .line {
+  .header-container .line {
     flex-grow: 1;
     height: 2px;
     background-color: #747480;
@@ -293,53 +293,33 @@ line-height: 20px;
   }
   
   .regions h1 {
-    color: #FBE74D;
+    color: #FFE600;
     font-size: 48px;
     margin: 0;
     font-weight: bold;
+    margin-bottom: 20px;
   }
   
-  .regions-line {
-    flex-grow: 1;
-    height: 2px;
+  .line {
+    height: 1px;
     background-color: #747480;
-    margin-left: 10px;
   }
   
-  .regions-above-header {
-    margin-bottom: 10px;
+  .above-header {
+    margin-bottom: 20px;
   }
   
   .region-section {
     display: flex;
     align-items: center;
-    margin-bottom: 40px;
-  }
-  
-  
-  .region-section.left-image .image-container {
-    order: 1;
-  }
-  
-  .region-section.left-image .text-container {
-    order: 2;
-    text-align: left;
-  }
-  
-  .region-section.right-image .image-container {
-    order: 2;
-  }
-  
-  .region-section.right-image .text-container {
-    order: 1;
-    text-align: left;
+    margin-bottom: 20px;
   }
   
   .regions-image-container {
     width: 200px; 
     height: 200px; 
     background-color: #2E2E38;
-    border: 1px solid #FBE74D;  ;
+    border: 1px solid #FFE600;
     border-radius: 50%; 
     display: flex;
     justify-content: center;
@@ -388,8 +368,6 @@ line-height: 20px;
   .regions-text-container .paragraph-2 {
     font-size: 1.2em;
     margin: 20px 0;
-    font-weight: bold;
-    position: right;
   }
   
   .regions-text-container .button {
@@ -401,6 +379,78 @@ line-height: 20px;
     border-radius: 5px;
   }
   
+  
+  .process {
+    color: white;
+  }
+  
+  .process-header-container {
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 20px;
+    font-family: EYInterstate;
+  }
+  
+  .process-heading {
+    font-size: 2em;
+    
+  }
+
+  .process-line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #747480;
+    margin-left: 10px;
+  }
+  
+  .process-highlight {
+    color: #FFE600;
+  }
+  
+  .process-image-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: black;
+    border: 1px solid #FFE600;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .process-image-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .process-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .process-overlay-text {
+    position: absolute;
+    font-family: EYInterstate;
+    font-size: 24px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .process-cta-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #FFE600;
+    color: black;
+    text-decoration: none;
+    font-weight: regular;
+    border-radius: 2px;
+  }
 
 .gallery-component {
   display: flex;

@@ -26,7 +26,7 @@ const OurTeam: React.FC = () => {
             <img 
                 src={isMobile ? teamMobileImage : teamImage} 
                 alt="Team" 
-                style={{ width: '100%', height: '1000px', objectFit: 'cover' }} 
+                style={{ width: '100%', height: '800px', objectFit: 'cover', objectPosition: 'center' }} 
             />
         </div>
     );
