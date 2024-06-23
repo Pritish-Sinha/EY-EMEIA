@@ -21,7 +21,7 @@ const sections: Section[] = [
     buttonHref: "#"
   },
   {
-    header: "Europe West",
+    header: "EUROPE WEST",
     imageUrl: r2Image,
     paragraph_1: "Innovation Team",
     paragraph_2: "Multidisciplinary and multicultural team which breathes innovation and works across all geographies, Service Lines and sectors to develop new technologies, strategies and solutions that can better position EY and our clients for the future.",
