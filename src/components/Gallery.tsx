@@ -65,7 +65,7 @@ const VideoContainer: FC<VideoContainerProps> = ({ video, isBlurred, handlePlayB
           />
         </>
       ) : (
-        <video width="300" height="200" controls>
+        <video width="600" height="400" controls>
           <source src={video.src} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
