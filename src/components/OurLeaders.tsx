@@ -8,34 +8,34 @@ interface Leader {
 }
 
 const regionalLeaders: Leader[] = [
-    { name: 'Meribeth Banaschik', role: 'Europe West', imageUrl: 'https://sites.ey.com/:i:/r/sites/EMEIA_Innovation_site/Images1/Meribeth.png?csf=1&web=1&e=ebzEYS' },
-    { name: 'Elizabeth Whitfield', role: 'EMEIA FSO', imageUrl: 'https://sites.ey.com/:i:/r/sites/EMEIA_Innovation_site/Images1/Elizabeth%20Whitfield.png?csf=1&web=1&e=AkGKTh' },
-    { name: 'Laura Atkinson', role: 'UK&I', imageUrl: 'https://sites.ey.com/:i:/r/sites/EMEIA_Innovation_site/Images1/Laura%20Atkinson.png?csf=1&web=1&e=vcBG6k' },
-    { name: 'Mateusz Pociask', role: 'CESA', imageUrl: 'https://sites.ey.com/:i:/r/sites/EMEIA_Innovation_site/Images1/Mateusz%20Pociask%201.png?csf=1&web=1&e=xln6rU' },
-    { name: 'Guru Malladi', role: 'India', imageUrl: 'https://sites.ey.com/:i:/r/sites/EMEIA_Innovation_site/Images1/Mateusz%20Pociask%201.png?csf=1&web=1&e=xln6rU' },
-    { name: 'Lorenzo Congiu', role: 'Nordics', imageUrl: 'https://sites.ey.com/:i:/r/sites/EMEIA_Innovation_site/Images1/Lorenzo%20Congiu.png?csf=1&web=1&e=zxqMjL' }
+    { name: 'Meribeth Banaschik', role: 'EUROPE WEST', imageUrl: '../src/assets/Meribeth.png' },
+    { name: 'Elizabeth Whitfield', role: 'EMEIA FSO', imageUrl: '../src/assets/Elizabeth.png' },
+    { name: 'Laura Atkinson', role: 'UK&I', imageUrl: '../src/assets/LauraAtkinson.png' },
+    { name: 'Mateusz Pociask', role: 'CESA', imageUrl: '../src/assets/MateuszPociask.png' },
+    { name: 'Guru Malladi', role: 'INDIA', imageUrl: '../src/assets/Guru.png' },
+    { name: 'Lorenzo Congiu', role: 'NORDICS', imageUrl: '../src/assets/LorenzoCongiu.png' }
 ];
 
 const serviceLineLeaders: Leader[] = [
     {
         name: 'Mikhail Romanov',
         role: 'Consulting',
-        imageUrl: 'https://sites.ey.com/:i:/r/sites/EMEIA_Innovation_site/Images1/Romanov%20Mikhail%20c.jpg?csf=1&web=1&e=warq9a'
+        imageUrl: '../src/assets/Mikhali.png'
     },
     {
         name: 'Detmar Ordemann',
         role: 'Assurance',
-        imageUrl: 'https://sites.ey.com/:i:/r/sites/EMEIA_Innovation_site/Images1/Detmar%20Ordemann.jpg?csf=1&web=1&e=THNQwE'
+        imageUrl: '../src/assets/DetmarOrdemann.png'
     },
     {
         name: 'Paul E Warn',
         role: 'Tax',
-        imageUrl: 'https://sites.ey.com/:i:/r/sites/EMEIA_Innovation_site/Images1/Paul%20E%20Warn%20(2).jpg?csf=1&web=1&e=BjEXwT'
+        imageUrl: '../src/assets/Paul.png'
     },
     {
         name: 'Bernd Krajnik',
         role: 'SaT Strategic Initiative',
-        imageUrl: 'https://sites.ey.com/:i:/r/sites/EMEIA_Innovation_site/Images1/Bernd%20Krajnik.jpg?csf=1&web=1&e=fm8tKn'
+        imageUrl: '../src/assets/BerndKrajnik.png'
     }
 ];
 
