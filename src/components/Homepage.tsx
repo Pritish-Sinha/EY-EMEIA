@@ -1,5 +1,5 @@
 import React from 'react';
-import backgroundImage from '../assets/home.png'; 
+import backgroundImage from '../assets/Home.png'; 
 import bulbImage from '../assets/bulb.png'; 
 
 const Homepage: React.FC = () => {
