@@ -1,6 +1,14 @@
 import React, { useState, useEffect, useRef, FC } from 'react';
 import PlayButtonImage from '../assets/play.png';
 import ScrollToTopImage from '../assets/Vector.png';
+import AI from '../assets/ai.jpeg';
+import Fund from '../assets/fund.jpeg';
+import IE from '../assets/ie.jpeg';
+import Wave from '../assets/wave.jpeg';
+import VAI from '../assets/ai.mp4';
+import VFund from '../assets/fund.mp4';
+import VIE from '../assets/ie.mp4';
+import VWave from '../assets/wave.mp4';
 
 interface Video {
   src: string;
@@ -11,28 +19,28 @@ interface Video {
 
 const videos: Video[] = [
   {
-    src: 'https://www.bhagirathienterprises.in/vid.mp4',
-    thumbnail: 'https://img.youtube.com/vi/kQtLEJyVZgA/hqdefault.jpg',
+    src: VAI,
+    thumbnail: AI,
     topic: 'Unlocking the mystery of',
-    subtopic: 'SIG Funding',
+    subtopic: 'AI',
   },
   {
-    src: 'https://www.bhagirathienterprises.in/vid.mp4',
-    thumbnail: 'https://img.youtube.com/vi/kQtLEJyVZgA/hqdefault.jpg',
+    src: VIE,
+    thumbnail: IE,
     topic: 'Immersive experience',
-    subtopic: 'showcase session',
+    subtopic: 'Of Future',
   },
   {
-    src: 'https://www.bhagirathienterprises.in/vid.mp4',
-    thumbnail: 'https://img.youtube.com/vi/kQtLEJyVZgA/hqdefault.jpg',
-    topic: 'Placeholder',
-    subtopic: 'Temp',
+    src: VFund,
+    thumbnail: Fund,
+    topic: 'Your Ideas',
+    subtopic: 'Our Hand',
   },
   {
-    src: 'https://www.bhagirathienterprises.in/vid.mp4',
-    thumbnail: 'https://img.youtube.com/vi/kQtLEJyVZgA/hqdefault.jpg',
-    topic: 'Placeholder',
-    subtopic: 'Temp',
+    src: VWave,
+    thumbnail: Wave,
+    topic: 'Transcend Into',
+    subtopic: 'The Technology',
   },
 ];
 
@@ -65,7 +73,7 @@ const VideoContainer: FC<VideoContainerProps> = ({ video, isBlurred, handlePlayB
           />
         </>
       ) : (
-        <video width="600" height="400" controls>
+        <video width="600" height="400" controls autoPlay>
           <source src={video.src} type="video/mp4" />
           Your browser does not support the video tag.
         </video>

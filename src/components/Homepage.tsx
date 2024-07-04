@@ -1,20 +1,27 @@
-import * as React from 'react';
+import React from 'react';
+import backgroundImage from '../assets/home.png'; 
+import bulbImage from '../assets/bulb.png'; 
 
 const Homepage: React.FC = () => {
-    return (
-        <section className="homepage-background-section">
-            <div className="homepage-text-container">
-                <div className="homepage-text-box">
-                    <h1 className='homepage-Style1'>EMEIA <span className='homepage-style1'>INNOVATION</span></h1><hr className='homepage-style3'></hr>
-                    
-                </div>
-                
-                <div className="homepage-text-box">
-                    <h4 className='homepage-style4'><span className='homepage-Style2'>We foster</span> a culture of transparency, creativity and collaboration across the EMEIA region, driving impactful innovation that delivers exceptional value to our clients and strengthens our market leadership.</h4>
-                </div>
-            </div>
-        </section>
-    );
+  return (
+    <div className="container">
+      <img src={backgroundImage} className="backgroundImage" alt="Background" />
+      <div className="content">
+        <div className="heading">
+          <span className="yellowText">EMEIA</span>
+          <div className="innovationContainer">
+            Innovation <img src={bulbImage} className="bulbImage" alt="Bulb" />
+          </div>
+        </div>
+        
+        <p className="paragraph">
+          <span className="boldYellowText">We foster</span> a culture of transparency, creativity and collaboration
+          across the EMEIA region, driving impactful innovation that delivers exceptional value to our clients and
+          strengthens our market leadership.
+        </p>
+      </div>
+    </div>
+  );
 };
 
 export default Homepage;

@@ -6,7 +6,6 @@ import OurLeaders from './components/OurLeaders';
 import Process from './components/Process';
 import Regions from './components/Regions';
 import Gallery from './components/Gallery';
-import Footer from './components/Footer';
 
 const App: React.FC = () => {
   return (
@@ -35,3 +34,4 @@ const App: React.FC = () => {
 };
 
 export default App;
+

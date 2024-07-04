@@ -24,7 +24,7 @@ const Funding: React.FC = () => {
               <p>innovation project?</p>
               <div className="process-line"></div>
             </p>
-            <a href="https://www.your-link.com" className="process-cta-button">
+            <a href="https://www.ey.com/en_gl/services/tax/investing-in-innovation" className="process-cta-button">
               Click Here to Know More
             </a>
           </div>
